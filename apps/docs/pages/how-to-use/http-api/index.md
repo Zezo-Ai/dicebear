@@ -6,7 +6,6 @@ description: >
 
 <script setup>
 import BrowserPreview from '@theme/components/BrowserPreview.vue';
-import Stats from '@theme/components/Stats.vue';
 </script>
 
 # HTTP-API
@@ -38,14 +37,6 @@ themselves. For a quick overview we have created an
 [license overview](/licenses/) for you.
 
 :::
-
-## Stats
-
-<ClientOnly>
-  <Stats />
-</ClientOnly>
-
-See our [statistics page](/stats/) for more statistics.
 
 ## Options
 

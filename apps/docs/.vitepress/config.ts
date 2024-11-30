@@ -12,17 +12,7 @@ export default defineConfigWithTheme<ThemeOptions>({
   title: 'DiceBear',
   description:
     'With DiceBear you can create awesome avatars for your project in no time.',
-  head: [
-    ['link', { rel: 'icon', href: '/favicon.ico' }],
-    [
-      'script',
-      {
-        defer: '',
-        src: 'https://stats.dicebear.com/script.js',
-        'data-website-id': 'dae8a2bc-8482-47d2-a166-96fe50c9e862',
-      },
-    ],
-  ],
+  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   srcDir: path.join(__dirname, '..', 'pages'),
   transformHead: (ctx) => {
     const result: HeadConfig[] = [];

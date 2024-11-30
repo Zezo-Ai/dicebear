@@ -13,7 +13,6 @@
     "@dicebear/collection": "*",
     "@dicebear/core": "*",
     "@mdi/js": "^7.2.96",
-    "@primevue/themes": "^4.0.4",
     "@types/canvas-confetti": "^1.6.0",
     "@types/json-schema": "^7.0.12",
     "@types/lodash": "^4.14.195",
@@ -30,7 +29,6 @@
     "pinia": "^2.1.4",
     "postcss": "^8.4.41",
     "prando": "^6.0.1",
-    "primevue": "^4.0.4",
     "random-int": "^3.0.0",
     "random-item": "^4.0.1",
     "tailwindcss": "^3.4.9",
@@ -38,7 +36,6 @@
     "vite-plugin-vuetify": "^2.0.1",
     "vitepress": "^1.1.0",
     "vue": "~3.4",
-    "vue-countup-v3": "^1.4.2",
     "vuetify": "^3.4.8"
   },
   "private": true
