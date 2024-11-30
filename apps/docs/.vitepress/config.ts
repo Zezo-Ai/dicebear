@@ -3,7 +3,6 @@ import { defineConfigWithTheme, HeadConfig } from 'vitepress';
 import { ThemeOptions } from '@shared/types';
 import sidebarDocs from './config/sidebarDocs';
 import sidebarPlayground from './config/sidebarPlayground';
-import sidebarLegal from './config/sidebarLegal';
 import sidebarStyles from './config/sidebarStyles';
 import avatarStyles from './config/avatarStyles';
 import vuetify from 'vite-plugin-vuetify';
@@ -46,11 +45,11 @@ export default defineConfigWithTheme<ThemeOptions>({
         // Temporary fix for Safari / Select scrolling on mobile
         'body-scroll-lock': path.resolve(
           __dirname,
-          'shared/utils/body-scroll-lock.ts'
+          'shared/utils/body-scroll-lock.ts',
         ),
         './components/VPLocalNav.vue': path.resolve(
           __dirname,
-          'theme/components/VPLocalNav.vue'
+          'theme/components/VPLocalNav.vue',
         ),
       },
     },
@@ -98,7 +97,6 @@ export default defineConfigWithTheme<ThemeOptions>({
       '/how-to-use/': sidebarDocs,
       '/guides/': sidebarDocs,
       '/playground/': sidebarPlayground,
-      '/legal/': sidebarLegal,
     },
   },
   sitemap: {

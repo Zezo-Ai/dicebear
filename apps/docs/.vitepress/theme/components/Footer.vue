@@ -66,16 +66,15 @@ const styles = computed(() => {
         </VPLink>
       </li>
       <li>
-        <VPLink class="link" href="https://dicebear.betteruptime.com/">
-          Status
-        </VPLink>
-      </li>
-      <li>
         <VPLink class="link" href="/licenses/">Licenses</VPLink>
       </li>
       <li>
-        <VPLink class="link" href="/legal/privacy-policy/"
-          >Privacy Policy</VPLink
+        <a
+          class="link"
+          href="https://www.iubenda.com/privacy-policy/57216581/full-legal"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Privacy Policy</a
         >
       </li>
       <li>

@@ -115,11 +115,11 @@ and even [Command-line API](/how-to-use/cli/).
 
 ### HTTP-API
 
-Our <strong>free, fast and [stable](https://dicebear.betteruptime.com/)</strong>
-HTTP-API handles tens of millions of requests daily. You can create SVG, PNG,
-JPEG, WebP, and AVIF avatars for your projects without a subscription. And
-thanks to the global CDN of our sponsor [bunny.net](https://bunny.net/), the
-avatars are just a hop, skip and a jump away from your users.
+Our <strong>free, fast and stable</strong> HTTP-API handles tens of millions of
+requests daily. You can create SVG, PNG, JPEG, WebP, and AVIF avatars for your
+projects without a subscription. And thanks to the global CDN of our sponsor
+[bunny.net](https://bunny.net/), the avatars are just a hop, skip and a jump
+away from your users.
 
 <BrowserPreview url="https://api.dicebear.com/9.x/lorelei/svg?seed=Mia" />
 
@@ -127,11 +127,9 @@ Take a look at our [HTTP-API](/how-to-use/http-api/) documentation.
 
 ### JS-Library
 
-Worried about privacy? We love transparency! Our
-[Privacy Policy](/legal/privacy-policy/) explains what information we collect
-through our HTTP-API and how we use it. Alternatively, you can use the
-[JavaScript library](/how-to-use/js-library/) and [CLI](/how-to-use/cli/), which
-do not send any data to us. Also the JavaScript library is very easy to use:
+Alternatively, you can use the [JavaScript library](/how-to-use/js-library/) and
+[CLI](/how-to-use/cli/), which do not send any data to us. Also the JavaScript
+library is very easy to use:
 
 ```js
 import { createAvatar } from '@dicebear/core';
