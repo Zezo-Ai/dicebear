@@ -11,7 +11,37 @@ export default defineConfigWithTheme<ThemeOptions>({
   title: 'DiceBear',
   description:
     'With DiceBear you can create awesome avatars for your project in no time.',
-  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
+  head: [
+    ['link', { rel: 'icon', href: '/favicon.ico' }],
+    [
+      'script',
+      { type: 'text/javascript' },
+      `
+      var _iub = _iub || [];
+      _iub.csConfiguration = {"siteId":3488029,"cookiePolicyId":57216581,"lang":"en","storage":{"useSiteId":true}};
+    `,
+    ],
+    [
+      'script',
+      {
+        type: 'text/javascript',
+        src: 'https://cs.iubenda.com/autoblocking/3488029.js',
+      },
+    ],
+    [
+      'script',
+      { type: 'text/javascript', src: '//cdn.iubenda.com/cs/gpp/stub.js' },
+    ],
+    [
+      'script',
+      {
+        type: 'text/javascript',
+        src: '//cdn.iubenda.com/cs/iubenda_cs.js',
+        charset: 'UTF-8',
+        async: '',
+      },
+    ],
+  ],
   srcDir: path.join(__dirname, '..', 'pages'),
   transformHead: (ctx) => {
     const result: HeadConfig[] = [];

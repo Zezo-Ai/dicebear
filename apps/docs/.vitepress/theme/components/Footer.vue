@@ -78,6 +78,15 @@ const styles = computed(() => {
         >
       </li>
       <li>
+        <a
+          class="link"
+          href="https://www.iubenda.com/privacy-policy/57216581/cookie-policy"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Cookie Policy</a
+        >
+      </li>
+      <li>
         <VPLink class="link" href="/legal/site-notice/">Site Notice</VPLink>
       </li>
     </ul>
