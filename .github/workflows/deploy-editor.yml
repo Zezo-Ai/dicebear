@@ -22,6 +22,10 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      # Remove all languages except English due GDPR reasons, because we can't translate the legal pages.
+      - name: Cleanup languages
+        run: find /apps/editor/src/messages -type f ! -name 'en.json' -exec rm -f {} +
+
       - name: Build with VitePress
         run: npm run build -- --ignore "@dicebear/@(cli|docs)"
 
